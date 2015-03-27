@@ -4,101 +4,188 @@
     <meta charset="utf-8">
     <title>icons</title>
     <style>
-    body {
-      margin:0;
-      padding:10px 20px;
-      background:#fff;
-      color:#222;
-    }
-    h1, div, footer {
-      font-family:"Helvetica Neue", Arial, sans-serif;
-    }
-    h1 {
-      margin:20px 0 10px;
-      font-size:30px;
-      font-weight:normal;
-    }
-    .icons__item {
-      cursor:pointer;
-    }
-    .icons__item:hover {
-      color:#3c90be;
-    }
-    .icons__item i {
-      display: inline-block;
-      vertical-align: middle;
-      width: 50px;
-      height: 40px;
-      line-height: 40px;
-      font-size: 30px;
-    }
-    footer {
-      margin-top:40px;
-      font-size:14px;
-      color:#999;
-    }
+      body {
+        margin:0;
+        padding:10px 20px;
+        background:#fff;
+        color:#222;
+      }
+      table {
+        font-family: "Arial", sans-serif;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        border-spacing: 0px;
+        border-collapse: collapse;
+        background-color: #fff;
+        color: #6f6f6f;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: left;
+      }
+      thead {
+        background-color: #f6f6f6;
+        border-top: 1px solid #dedede;
+        border-bottom: 1px solid #eaeaea;
+      }
+      th { padding: 20px; text-align: center;}
+      tbody tr { border-bottom: 1px solid #eeeeee; }
+      td {
+        padding: 10px 5px;
+        text-align: center;
+      }
+      .reverse {
+        background-color: #6f6f6f;
+        color: #fff;
+      }
+      [data-icon] {
+        position: relative;
+        line-height: 72px;
+      }
+      .size1 { font-size: 24px; }
+      .size2 { font-size: 36px; }
+      .size3 { font-size: 48px; }
+      .size4 { font-size: 72px; }
     </style>
     <link rel="stylesheet" href="icons.css">
   </head>
   <body>
+
+      <table>
+        <thead>
+          <th></th><th>24px</th><th>36px</th><th>48px</th><th>72px</th>
+        </thead>
+        <tbody>
+          
+          <tr>
+            <td>angle_down</td>
+            <td class="size1"><i data-icon="angle_down"></i></td>
+            <td class="size2"><i data-icon="angle_down"></i></td>
+            <td class="size3"><i data-icon="angle_down"></i></td>
+            <td class="size4"><i data-icon="angle_down"></i></td>
+          </tr>
+          <tr class="reverse">
+            <td>angle_down</td>
+            <td class="size1"><i data-icon="angle_down"></i></td>
+            <td class="size2"><i data-icon="angle_down"></i></td>
+            <td class="size3"><i data-icon="angle_down"></i></td>
+            <td class="size4"><i data-icon="angle_down"></i></td>
+          </tr>
+          
+          <tr>
+            <td>angle_left</td>
+            <td class="size1"><i data-icon="angle_left"></i></td>
+            <td class="size2"><i data-icon="angle_left"></i></td>
+            <td class="size3"><i data-icon="angle_left"></i></td>
+            <td class="size4"><i data-icon="angle_left"></i></td>
+          </tr>
+          <tr class="reverse">
+            <td>angle_left</td>
+            <td class="size1"><i data-icon="angle_left"></i></td>
+            <td class="size2"><i data-icon="angle_left"></i></td>
+            <td class="size3"><i data-icon="angle_left"></i></td>
+            <td class="size4"><i data-icon="angle_left"></i></td>
+          </tr>
+          
+          <tr>
+            <td>angle_right</td>
+            <td class="size1"><i data-icon="angle_right"></i></td>
+            <td class="size2"><i data-icon="angle_right"></i></td>
+            <td class="size3"><i data-icon="angle_right"></i></td>
+            <td class="size4"><i data-icon="angle_right"></i></td>
+          </tr>
+          <tr class="reverse">
+            <td>angle_right</td>
+            <td class="size1"><i data-icon="angle_right"></i></td>
+            <td class="size2"><i data-icon="angle_right"></i></td>
+            <td class="size3"><i data-icon="angle_right"></i></td>
+            <td class="size4"><i data-icon="angle_right"></i></td>
+          </tr>
+          
+          <tr>
+            <td>angle_up</td>
+            <td class="size1"><i data-icon="angle_up"></i></td>
+            <td class="size2"><i data-icon="angle_up"></i></td>
+            <td class="size3"><i data-icon="angle_up"></i></td>
+            <td class="size4"><i data-icon="angle_up"></i></td>
+          </tr>
+          <tr class="reverse">
+            <td>angle_up</td>
+            <td class="size1"><i data-icon="angle_up"></i></td>
+            <td class="size2"><i data-icon="angle_up"></i></td>
+            <td class="size3"><i data-icon="angle_up"></i></td>
+            <td class="size4"><i data-icon="angle_up"></i></td>
+          </tr>
+          
+          <tr>
+            <td>check</td>
+            <td class="size1"><i data-icon="check"></i></td>
+            <td class="size2"><i data-icon="check"></i></td>
+            <td class="size3"><i data-icon="check"></i></td>
+            <td class="size4"><i data-icon="check"></i></td>
+          </tr>
+          <tr class="reverse">
+            <td>check</td>
+            <td class="size1"><i data-icon="check"></i></td>
+            <td class="size2"><i data-icon="check"></i></td>
+            <td class="size3"><i data-icon="check"></i></td>
+            <td class="size4"><i data-icon="check"></i></td>
+          </tr>
+          
+          <tr>
+            <td>close</td>
+            <td class="size1"><i data-icon="close"></i></td>
+            <td class="size2"><i data-icon="close"></i></td>
+            <td class="size3"><i data-icon="close"></i></td>
+            <td class="size4"><i data-icon="close"></i></td>
+          </tr>
+          <tr class="reverse">
+            <td>close</td>
+            <td class="size1"><i data-icon="close"></i></td>
+            <td class="size2"><i data-icon="close"></i></td>
+            <td class="size3"><i data-icon="close"></i></td>
+            <td class="size4"><i data-icon="close"></i></td>
+          </tr>
+          
+          <tr>
+            <td>minus</td>
+            <td class="size1"><i data-icon="minus"></i></td>
+            <td class="size2"><i data-icon="minus"></i></td>
+            <td class="size3"><i data-icon="minus"></i></td>
+            <td class="size4"><i data-icon="minus"></i></td>
+          </tr>
+          <tr class="reverse">
+            <td>minus</td>
+            <td class="size1"><i data-icon="minus"></i></td>
+            <td class="size2"><i data-icon="minus"></i></td>
+            <td class="size3"><i data-icon="minus"></i></td>
+            <td class="size4"><i data-icon="minus"></i></td>
+          </tr>
+          
+          <tr>
+            <td>search</td>
+            <td class="size1"><i data-icon="search"></i></td>
+            <td class="size2"><i data-icon="search"></i></td>
+            <td class="size3"><i data-icon="search"></i></td>
+            <td class="size4"><i data-icon="search"></i></td>
+          </tr>
+          <tr class="reverse">
+            <td>search</td>
+            <td class="size1"><i data-icon="search"></i></td>
+            <td class="size2"><i data-icon="search"></i></td>
+            <td class="size3"><i data-icon="search"></i></td>
+            <td class="size4"><i data-icon="search"></i></td>
+          </tr>
+          
+        </tbody>
+      </table>
+
+      <br><br><br><br>
+
       <h1>Usage</h1>
       <pre><code>&lt;i data-icon=&quot;<span id="name">name</span>&quot;&gt;&lt;/i&gt;</code></pre>
       
       <p>(Click on an icon to get the class name)</p>
-
-      <h1>icons</h1>
-
-      <div class="icons" id="icons">
-          
-              <div class="icons__item"  data-name="angle_down">
-                <i data-icon="angle_down"></i>
-                angle_down
-              </div>
-          
-              <div class="icons__item"  data-name="angle_left">
-                <i data-icon="angle_left"></i>
-                angle_left
-              </div>
-          
-              <div class="icons__item"  data-name="angle_right">
-                <i data-icon="angle_right"></i>
-                angle_right
-              </div>
-          
-              <div class="icons__item"  data-name="angle_up">
-                <i data-icon="angle_up"></i>
-                angle_up
-              </div>
-          
-              <div class="icons__item"  data-name="check">
-                <i data-icon="check"></i>
-                check
-              </div>
-          
-              <div class="icons__item"  data-name="close">
-                <i data-icon="close"></i>
-                close
-              </div>
-          
-              <div class="icons__item"  data-name="minus">
-                <i data-icon="minus"></i>
-                minus
-              </div>
-          
-              <div class="icons__item"  data-name="plus">
-                <i data-icon="plus"></i>
-                plus
-              </div>
-          
-              <div class="icons__item"  data-name="search">
-                <i data-icon="search"></i>
-                search
-              </div>
-          
-      </div>
-
-      
-
 
       <script>
         (function() {
