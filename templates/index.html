@@ -4,69 +4,85 @@
     <meta charset="utf-8">
     <title><%= fontBaseName %></title>
     <style>
-    body {
-      margin:0;
-      padding:10px 20px;
-      background:#fff;
-      color:#222;
-    }
-    h1, div, footer {
-      font-family:"Helvetica Neue", Arial, sans-serif;
-    }
-    h1 {
-      margin:20px 0 10px;
-      font-size:30px;
-      font-weight:normal;
-    }
-    .icons__item {
-      cursor:pointer;
-    }
-    .icons__item:hover {
-      color:#3c90be;
-    }
-    .icons__item i {
-      display: inline-block;
-      vertical-align: middle;
-      width: 50px;
-      height: 40px;
-      line-height: 40px;
-      font-size: 30px;
-    }
-    footer {
-      margin-top:40px;
-      font-size:14px;
-      color:#999;
-    }
+      body {
+        margin:0;
+        padding:10px 20px;
+        background:#fff;
+        color:#222;
+      }
+      table {
+        font-family: "Arial", sans-serif;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        border-spacing: 0px;
+        border-collapse: collapse;
+        background-color: #fff;
+        color: #6f6f6f;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: left;
+      }
+      thead {
+        background-color: #f6f6f6;
+        border-top: 1px solid #dedede;
+        border-bottom: 1px solid #eaeaea;
+      }
+      th { padding: 20px; text-align: center;}
+      tbody tr { border-bottom: 1px solid #eeeeee; }
+      td {
+        padding: 10px 5px;
+        text-align: center;
+      }
+      .reverse {
+        background-color: #6f6f6f;
+        color: #fff;
+      }
+      [data-icon] {
+        position: relative;
+        line-height: 72px;
+      }
+      .size1 { font-size: 24px; }
+      .size2 { font-size: 36px; }
+      .size3 { font-size: 48px; }
+      .size4 { font-size: 72px; }
     </style>
     <link rel="stylesheet" href="icons.css">
   </head>
   <body>
+
+      <table>
+        <thead>
+          <th></th><th>24px</th><th>36px</th><th>48px</th><th>72px</th>
+        </thead>
+        <tbody>
+          <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
+          <tr>
+            <td><%= glyph %></td>
+            <td class="size1"><i data-icon="<%= glyph %>"></i></td>
+            <td class="size2"><i data-icon="<%= glyph %>"></i></td>
+            <td class="size3"><i data-icon="<%= glyph %>"></i></td>
+            <td class="size4"><i data-icon="<%= glyph %>"></i></td>
+          </tr>
+          <tr class="reverse">
+            <td><%= glyph %></td>
+            <td class="size1"><i data-icon="<%= glyph %>"></i></td>
+            <td class="size2"><i data-icon="<%= glyph %>"></i></td>
+            <td class="size3"><i data-icon="<%= glyph %>"></i></td>
+            <td class="size4"><i data-icon="<%= glyph %>"></i></td>
+          </tr>
+          <% } %>
+        </tbody>
+      </table>
+
+      <br><br><br><br>
+
       <h1>Usage</h1>
       <pre><code>&lt;i data-icon=&quot;<%= baseClass ? baseClass + ' ' : '' %><%= classPrefix %><span id="name">name</span>&quot;&gt;&lt;/i&gt;</code></pre>
       <% if (addLigatures) { %>
       <pre><code>&lt;i class=&quot;ligature-icons&quot;&gt;<span id="name2">name</span>&lt;/i&gt;</code></pre>
       <% } %>
       <p>(Click on an icon to get the class name)</p>
-
-      <h1><%= fontBaseName %></h1>
-
-      <div class="icons" id="icons">
-          <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
-              <div class="icons__item" <%= classPrefix %> data-name="<%= glyph %>">
-                <i data-icon="<%= glyph %>"></i>
-                <%= glyph %>
-              </div>
-          <% } %>
-      </div>
-
-      <% if (addLigatures) { %>
-      <div class="ligature-icons" style="display:none">
-          <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx]; %>
-              <%= glyph %>
-          <% } %>
-      </div>
-      <% } %>
-
 
       <script>
         (function() {
