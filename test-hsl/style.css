@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?a1y6c6');
-	src:url('fonts/icomoon.eot?#iefixa1y6c6') format('embedded-opentype'),
-		url('fonts/icomoon.woff?a1y6c6') format('woff'),
-		url('fonts/icomoon.ttf?a1y6c6') format('truetype'),
-		url('fonts/icomoon.svg?a1y6c6#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?qtrh5k');
+	src:url('fonts/icomoon.eot?#iefixqtrh5k') format('embedded-opentype'),
+		url('fonts/icomoon.woff?qtrh5k') format('woff'),
+		url('fonts/icomoon.ttf?qtrh5k') format('truetype'),
+		url('fonts/icomoon.svg?qtrh5k#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,221 +23,123 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-ico_f_041615_48x48_13_menu3copy2:before {
+.icon-ico_f_041715_48x48_13_menu3copy2:before {
 	content: "\61";
 }
 
-.icon-ico_f_041615_48x48_13_menu3copy3:before {
+.icon-ico_f_041715_48x48_13_menu3copy3:before {
 	content: "\62";
 }
 
-.icon-ico_f_041615_48x48_13_menu3copy4:before {
+.icon-ico_f_041715_48x48_13_menu3copy4:before {
 	content: "\63";
 }
 
-.icon-ico_f_041615_48x48_13_menu3copy:before {
+.icon-ico_f_041715_48x48_13_menu3copy:before {
 	content: "\64";
 }
 
-.icon-ico_f_041615_48x48_14_viewAll2copy2:before {
+.icon-ico_f_041715_48x48_14_viewAll2copy2:before {
 	content: "\65";
 }
 
-.icon-ico_f_041615_48x48_14_viewAll2copy3:before {
+.icon-ico_f_041715_48x48_14_viewAll2copy3:before {
 	content: "\66";
 }
 
-.icon-ico_f_041615_48x48_14_viewAll2copy4:before {
+.icon-ico_f_041715_48x48_14_viewAll2copy4:before {
 	content: "\67";
 }
 
-.icon-ico_f_041615_48x48_14_viewAll2copy:before {
+.icon-ico_f_041715_48x48_14_viewAll2copy:before {
 	content: "\68";
 }
 
-.icon-ico_f_041615_48x48_27_tv:before {
+.icon-ico_f_041715_48x48_27_tv:before {
 	content: "\69";
 }
 
-.icon-ico_f_041615_48x48_28_question:before {
+.icon-ico_f_041715_48x48_28_question:before {
 	content: "\6a";
 }
 
-.icon-ico_f_041615_48x48_29_ticket_aligned .path1:before {
+.icon-ico_f_041715_48x48_29_ticket_aligned:before {
 	content: "\6b";
-	color: rgb(0, 0, 0);
 }
-.icon-ico_f_041615_48x48_29_ticket_aligned .path2:before {
+
+.icon-ico_f_041715_48x48_29_ticket_rounded:before {
 	content: "\6c";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
 }
-.icon-ico_f_041615_48x48_29_ticket_aligned .path3:before {
+
+.icon-ico_f_041715_48x48_29_ticket:before {
 	content: "\6d";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
 }
-.icon-ico_f_041615_48x48_29_ticket_aligned .path4:before {
+
+.icon-ico_f_041715_48x48_29_ticket2_negative:before {
 	content: "\6e";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
 }
 
-.icon-ico_f_041615_48x48_29_ticket_rounded:before {
-	content: "\f1";
-}
-
-.icon-ico_f_041615_48x48_29_ticket:before {
+.icon-ico_f_041715_48x48_29_ticket2:before {
 	content: "\6f";
 }
 
-.icon-ico_f_041615_48x48_29_ticket2_negative:before {
+.icon-ico_f_041715_48x48_29_ticket3_negative:before {
 	content: "\70";
 }
 
-.icon-ico_f_041615_48x48_29_ticket2:before {
+.icon-ico_f_041715_48x48_30_recording:before {
 	content: "\71";
 }
 
-.icon-ico_f_041615_48x48_29_ticket3_negative:before {
+.icon-ico_f_041715_48x48_31_smartphone:before {
 	content: "\72";
 }
 
-.icon-ico_f_041615_48x48_30_recording:before {
+.icon-ico_f_041715_48x48_31_smartphone2:before {
 	content: "\73";
 }
 
-.icon-ico_f_041615_48x48_31_smartphone:before {
+.icon-ico_f_041715_48x48_32_tablet:before {
 	content: "\74";
 }
 
-.icon-ico_f_041615_48x48_31_smartphone2:before {
+.icon-ico_f_041715_48x48_33_imaccopy:before {
 	content: "\75";
 }
 
-.icon-ico_f_041615_48x48_32_tablet:before {
+.icon-ico_f_041715_48x48_33_imac:before {
 	content: "\76";
 }
 
-.icon-ico_f_041615_48x48_33_imaccopy:before {
+.icon-ico_f_041715_48x48_34_laptopcopy2:before {
 	content: "\77";
 }
 
-.icon-ico_f_041615_48x48_33_imac:before {
+.icon-ico_f_041715_48x48_34_laptopcopy3:before {
 	content: "\78";
 }
 
-.icon-ico_f_041615_48x48_34_laptopcopy2:before {
+.icon-ico_f_041715_48x48_34_laptopcopy:before {
 	content: "\79";
 }
 
-.icon-ico_f_041615_48x48_34_laptopcopy3:before {
+.icon-ico_f_041715_48x48_34_laptop:before {
 	content: "\7a";
 }
 
-.icon-ico_f_041615_48x48_34_laptopcopy:before {
+.icon-ico_f_041715_48x48_35_desktopcopy:before {
 	content: "\41";
 }
 
-.icon-ico_f_041615_48x48_34_laptop:before {
+.icon-ico_f_041715_48x48_35_desktop:before {
 	content: "\42";
 }
 
-.icon-ico_f_041615_48x48_35_desktopcopy .path1:before {
+.icon-ico_f_041715_48x48_36_catch_long:before {
 	content: "\43";
-	color: rgb(0, 0, 0);
 }
-.icon-ico_f_041615_48x48_35_desktopcopy .path2:before {
+
+.icon-ico_f_041715_48x48_36_catch_long2:before {
 	content: "\44";
-	margin-left: -1em;
-	color: rgb(0, 0, 0);
-}
-.icon-ico_f_041615_48x48_35_desktopcopy .path3:before {
-	content: "\45";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
-}
-.icon-ico_f_041615_48x48_35_desktopcopy .path4:before {
-	content: "\46";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
-}
-.icon-ico_f_041615_48x48_35_desktopcopy .path5:before {
-	content: "\47";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
-}
-
-.icon-ico_f_041615_48x48_35_desktop:before {
-	content: "\48";
-}
-
-.icon-ico_f_041615_48x48_36_catch_long:before {
-	content: "\49";
-}
-
-.icon-ico_f_041615_48x48_36_catch_long2:before {
-	content: "\4a";
-}
-
-.icon-ico_f_041615_48x48-74 .path1:before {
-	content: "\4b";
-	color: rgb(0, 0, 0);
-}
-.icon-ico_f_041615_48x48-74 .path2:before {
-	content: "\4c";
-	margin-left: -1em;
-	color: rgb(255, 255, 255);
-}
-.icon-ico_f_041615_48x48-74 .path3:before {
-	content: "\4d";
-	margin-left: -1em;
-	color: rgb(0, 0, 0);
-}
-.icon-ico_f_041615_48x48-74 .path4:before {
-	content: "\4e";
-	margin-left: -1em;
-	color: rgb(0, 0, 0);
-}
-.icon-ico_f_041615_48x48-74 .path5:before {
-	content: "\4f";
-	margin-left: -1em;
-	color: rgb(0, 0, 0);
-}
-
-.icon-ico_f_041615_48x48-75:before {
-	content: "\50";
-}
-
-.icon-ico_f_041615_48x48-76:before {
-	content: "\51";
-}
-
-.icon-ico_f_041615_48x48-77:before {
-	content: "\52";
-}
-
-.icon-ico_f_041615_48x48-78:before {
-	content: "\53";
-}
-
-.icon-ico_f_041615_48x48-79:before {
-	content: "\54";
-}
-
-.icon-ico_f_041615_48x48-80:before {
-	content: "\55";
-}
-
-.icon-ico_f_041615_48x48-81:before {
-	content: "\56";
-}
-
-.icon-ico_f_041615_48x48-82:before {
-	content: "\57";
-}
-
-.icon-ico_f_041615_48x48-83:before {
-	content: "\58";
 }
 
