@@ -43,9 +43,10 @@
         line-height: 72px;
       }
       .size1 { font-size: 24px; }
-      .size2 { font-size: 36px; }
-      .size3 { font-size: 48px; }
-      .size4 { font-size: 72px; }
+      .size2 { font-size: 32px; }
+      .size3 { font-size: 36px; }
+      .size4 { font-size: 48px; }
+      .size5 { font-size: 72px; }
     </style>
     <link rel="stylesheet" href="icons.css">
   </head>
@@ -53,7 +54,7 @@
 
       <table>
         <thead>
-          <th></th><th>24px</th><th>36px</th><th>48px</th><th>72px</th>
+          <th></th><th>24px</th><th>32px</th><th>36px</th><th>48px</th><th>72px</th>
         </thead>
         <tbody>
           <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
@@ -63,6 +64,7 @@
             <td class="size2"><i data-icon="<%= glyph %>"></i></td>
             <td class="size3"><i data-icon="<%= glyph %>"></i></td>
             <td class="size4"><i data-icon="<%= glyph %>"></i></td>
+            <td class="size5"><i data-icon="<%= glyph %>"></i></td>
           </tr>
           <tr class="reverse">
             <td><%= glyph %></td>
@@ -70,6 +72,7 @@
             <td class="size2"><i data-icon="<%= glyph %>"></i></td>
             <td class="size3"><i data-icon="<%= glyph %>"></i></td>
             <td class="size4"><i data-icon="<%= glyph %>"></i></td>
+            <td class="size5"><i data-icon="<%= glyph %>"></i></td>
           </tr>
           <% } %>
         </tbody>
