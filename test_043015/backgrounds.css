@@ -1,0 +1,35 @@
+/*
+backgrounds.css
+by Hyun Sung Lee
+22-4-15
+*/
+
+.blackBg{
+	background-color: #222; 
+	color: #fff; 
+	display: inline-block;
+}
+
+section{
+	padding: 3em 5em 3em 0;
+}
+
+.mdpi{
+	font-size: 24px;
+}
+
+.tvdpi{
+	font-size: 32px;
+}
+
+.hdpi{
+	font-size:36px;
+}
+
+.xhdpi{
+	font-size: 48px;
+}
+
+.xxhdpi{
+	font-size: 72px;
+}
