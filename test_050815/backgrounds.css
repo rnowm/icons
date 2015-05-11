@@ -10,6 +10,10 @@ by Hyun Sung Lee
 	display: inline-block;
 }
 
+.icon-{
+	letter-spacing: 1em;
+}
+
 section{
 	padding: 3em 5em 3em 0;
 }
