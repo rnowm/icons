@@ -14,7 +14,7 @@ a, a:visited{
 }
 
 #container {
-	margin: 0 16px;
+	margin: 64px 16px 0;
 }
 
 #product-slider {
@@ -25,15 +25,22 @@ a, a:visited{
 
 .box {
 	background-color: #f2f2f2;
+	float: left;
 	min-height: 211px;
-	margin: 16px;
+	margin: 0 16px;
 	padding: 16px;
+	position: relative;
 }
 
 .box h3 {
 	border-bottom: 1px solid #cecece;
+	font-size: 16px;
 	margin-top: 0;
 	padding-bottom: 8px;
+}
+
+.nav-up {
+	top: -50px;
 }
 
 header{
@@ -46,8 +53,11 @@ header{
 	background: linear-gradient(to bottom, rgba(249,249,249,1) 0%, rgba(230,230,230,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e6e6e6', GradientType=0 );
 	height: 50px;
-	position: relative;
+	position: fixed;
+	top: 0;
+	transition: top 0.2s ease-in-out;
 	width: 100%;
+	z-index: 5;
 }
 
 header .blue-bar {
@@ -69,6 +79,10 @@ header h1 img {
 	width: 180px;
 }
 
+nav {
+	overflow: scroll;
+}
+
 nav a img {
 	display: block;
 	left: 16px;
@@ -77,13 +91,43 @@ nav a img {
 	width: 24px;
 }
 
-nav ul {
-	display: none;
+#main-menu {
+	margin-top: 50px;
 }
 
-h2 {
+nav ul {
+	background-color: #eee;
+	display: block;
+	padding: 0;
+}
+
+nav li{
+	border-bottom: 1px solid #aaa;
+	color: #032b5a;
+	list-style: none;
+	font-size: 16px;
+	padding: 14px 16px;
+	text-transform: none;
+}
+
+nav li.menu-section {
+	font-size: 12px;
+	padding: 8px 16px;
+	text-transform: uppercase;
+}
+
+nav li.submenu {
+	background-color: #d2d2d2;
+}
+
+nav li.warning {
+	font-size: 12px;
+}
+
+section h2 {
 	color: #333;
-	font-size: 36px;
+	font-size: 21px;
+	margin-left: 16px;
 }
 
 

@@ -8,29 +8,23 @@
 </head>
 
 <body>
-	<header>
-		<h1><img src="img/header.png" alt="O2"></h1>
+	<header class="nav-down">
+		<h1><a href="index.html"><img src="img/header.png" alt="O2"></a></h1>
 		<!-- MENU -->
 		<nav>
-			<ul>
-				<li class="greeting">Hello, Philips!</li>
+			<ul id="main-menu">
+				<li class="menu-section">Hello, Philips!</li>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="users.html">Users</a></li>
-				<li>PRODUCTS
-					<ul>
-						<li><a href="product.html">Office</a></li>
-						<li><a href="product.html">Box</a></li>
-						<li><a href="product.html">Cloud</a></li>
-					</ul>
-				</li>
+				<li class="menu-section">PRODUCTS </li>
+				<li class="submenu"><a href="product.html">Office</a></li>
+				<li class="submenu"><a href="product.html">Box</a></li>
+				<li class="submenu"><a href="product.html">Cloud</a></li>
 				<li><a href="#">Account</a></li>
 				<li><a href="#">Store</a></li>
-				<li>WARNINGS
-					<ul>
-						<li><a href="user-profile-warning.html">ownCloud. User is running out of memory.</a></li>
-						<li><a href="#">Example. Lorem ipsum dolor sit amet</a></li>
-					</ul>
-				</li>
+				<li class="menu-section">WARNINGS</li>
+				<li class="warning"><a href="user-profile-warning.html"><span style="color:#990000;">ownCloud.</span> User is running out of memory.</a></li>
+				<li class="warning"><a href="#"><span style="color:#990000;">Example.</span> Lorem ipsum dolor sit amet</a></li>
 				<li><a href="#">Help</a></li>
 				<li><a href="preindex.html">Exit</a></li>
 			</ul>
@@ -52,8 +46,7 @@
 					</div>
 					<div class="box">
 						<h3>Box Starter</h3>
-						<p class="highlighted-number"><span>2</span>/5</p>
-						<p>licences assigned</p>
+						<img src="img/img_02.png" />
 						<a href="#" class="btn">Buy more</a>
 					</div>
 					<!-- BULLETS here -->
@@ -109,5 +102,7 @@
 		</div>
 	</footer>
 
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
 </html>
