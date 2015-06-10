@@ -9,6 +9,11 @@ html, body {
 }
 
 a, a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+
+header a, header a:visited{
 	color: #032b5a;
 	text-decoration: none;
 }
@@ -17,16 +22,10 @@ a, a:visited{
 	margin: 64px 16px 0;
 }
 
-#product-slider {
-	height: 230px;
-	position: relative;
-	width: 100%;
-}
-
 .box {
 	background-color: #f2f2f2;
 	float: left;
-	min-height: 211px;
+	min-height: 192px;
 	margin: 0 16px;
 	padding: 16px;
 	position: relative;
@@ -37,6 +36,15 @@ a, a:visited{
 	font-size: 16px;
 	margin-top: 0;
 	padding-bottom: 8px;
+}
+
+.user-card {
+	background-color: #f2f2f2;
+	float: left;
+	min-height: 192px;
+	margin: 0 16px;
+	padding: 16px;
+	position: relative;
 }
 
 .nav-up {
@@ -101,8 +109,28 @@ nav::-webkit-scrollbar {
 	width: 36px;
 }
 
+.btn {
+	display: inline-block;
+	background-color: #2280a6;
+	border-radius: 4px;
+	color: #fff;
+	padding: 8px 16px;
+}
+
+.box .btn {
+	position: absolute;
+	right: 16px;
+	bottom: 16px;
+}
+
 #main-menu {
 	margin-top: 50px;
+}
+
+.bullets{
+	height: 20px;
+	display: block;
+	margin: 8px auto;
 }
 
 .warning {
