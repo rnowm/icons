@@ -36,6 +36,10 @@ a, a:visited{
 	top: -50px;
 }
 
+.more-users {
+	margin-left: 16px;
+}
+
 header{
 	background: rgba(249,249,249,1);
 	background: -moz-linear-gradient(top, rgba(249,249,249,1) 0%, rgba(230,230,230,1) 100%);
@@ -90,8 +94,8 @@ nav::-webkit-scrollbar {
 	display: block;
 	left: 16px;
 	position: absolute;
-	top: 6px;
-	width: 36px;
+	top: 2px;
+	width: 48px;
 }
 
 .btn {
