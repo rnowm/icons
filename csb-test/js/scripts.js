@@ -112,3 +112,10 @@ $(document).ready(function(){
 
 
 });
+
+
+// ***** NAV *****
+$(".toggle-nav").on('click', function (e) {
+    $("#main-menu").toggleClass("show");
+    e.preventDefault();
+})
