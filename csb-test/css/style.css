@@ -19,26 +19,14 @@ a, a:visited{
 }
 
 #container {
-	margin: 64px 16px 0;
+	margin: 72px 16px 0;
 }
 
-.box {
-	background-color: #f2f2f2;
-	float: left;
-	min-height: 192px;
-	margin: 0 16px;
-	padding: 16px;
-	position: relative;
+#users {
+	margin-top: 32px;
 }
 
-.box h3 {
-	border-bottom: 1px solid #cecece;
-	font-size: 16px;
-	margin-top: 0;
-	padding-bottom: 8px;
-}
-
-.user-card {
+.product-card {
 	display: block;
 	margin: 16px;
 	width: 296px;
@@ -57,7 +45,7 @@ header{
 	background: -ms-linear-gradient(top, rgba(249,249,249,1) 0%, rgba(230,230,230,1) 100%);
 	background: linear-gradient(to bottom, rgba(249,249,249,1) 0%, rgba(230,230,230,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e6e6e6', GradientType=0 );
-	min-height: 50px;
+	min-height: 56px;
 	position: fixed;
 	top: 0;
 	transition: top 0.2s ease-in-out;
@@ -69,7 +57,7 @@ header .blue-bar {
 	background-color: #0f68a6;
 	height: 6px;
 	position: absolute;
-	top: 44px;
+	top: 50px;
 	width: 100%;
 }
 
@@ -81,7 +69,7 @@ header h1 {
 }
 
 header h1 img {
-	width: 180px;
+	height: 36px;
 }
 
 nav {
