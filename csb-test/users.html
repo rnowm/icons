@@ -3,36 +3,35 @@
 <head>
 	<meta charset="UTF-8">
 	<title>My Business apps - O2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	<header>
-		<h1>My Business Apps <img src="img/O2-logo.png" alt="O2"></h1>
+	<header class="nav-down">
+		<h1><a href="index.html"><img src="img/header.png" alt="O2"></a></h1>
 		<!-- MENU -->
 		<nav>
-			<ul>
-				<li class="greeting">Hello, Philips!</li>
+			<ul id="main-menu">
+				<li class="menu-section">WARNINGS</li>
+				<li class="warning"><a href="user-profile-warning.html"><span style="color:#990000;">ownCloud.</span> User is running out of memory.</a></li>
+				<li class="warning"><a href="#"><span style="color:#990000;">Example.</span> Lorem ipsum dolor sit amet</a></li>
+				<li class="menu-section">Hello, Philips!</li>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="users.html">Users</a></li>
-				<li>PRODUCTS
-					<ul>
-						<li><a href="product.html">Office</a></li>
-						<li><a href="product.html">Box</a></li>
-						<li><a href="product.html">Cloud</a></li>
-					</ul>
-				</li>
+				<li class="menu-section">PRODUCTS </li>
+				<li class="submenu"><a href="#">Office</a></li>
+				<li class="submenu"><a href="#">Box</a></li>
+				<li class="submenu"><a href="#">Cloud</a></li>
 				<li><a href="#">Account</a></li>
 				<li><a href="#">Store</a></li>
-				<li>WARNINGS
-					<ul>
-						<li><a href="user-profile-warning.html">ownCloud. User is running out of memory.</a></li>
-						<li><a href="#">Example. Lorem ipsum dolor sit amet</a></li>
-					</ul>
-				</li>
+				
 				<li><a href="#">Help</a></li>
 				<li><a href="preindex.html">Exit</a></li>
 			</ul>
-			<a href="#" class="toogle-nav">&#9776;</a>
 		</nav>
+		<a href="#" class="toggle-nav"><img src="img/menu-warning.png" alt="&#9776;"></a>
+		<div class="blue-bar"></div>
 	</header>
 
 	<!-- SELECT MENU -->
