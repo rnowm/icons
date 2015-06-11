@@ -38,6 +38,7 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
+
 // ***** NAV *****
 $(".toggle-nav").on('click', function (e) {
     $("#main-menu").toggleClass("show");
@@ -45,5 +46,6 @@ $(".toggle-nav").on('click', function (e) {
 });
 
 $(".menu-bg").on('click', function (e) {
-    $("#main-manu").removeClass("show");
+    $("#main-menu").removeClass("show");
+    e.preventDefault();
 });
