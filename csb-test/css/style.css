@@ -198,6 +198,35 @@ section h2 {
 }
 
 
+/*** USER PROFILE ***/
+#container-profile {
+	margin: 56px 0px 0;
+}
+
+#back {
+	background-color: #f2f6f8;
+	height: 16px;
+	padding: 16px;
+}
+
+.accordion h2 {
+	background-color: #d7e9f5;
+	height: 16px;
+	padding: 16px;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.edit-btn {
+	position: absolute;
+	bottom: 34px;
+	left:10px;
+	display: block;
+	height: 40px;
+	width: 100px;
+}
+
 /** USERS CARDS ***/ 
 
 .users_card { float:left; width: 100%;
