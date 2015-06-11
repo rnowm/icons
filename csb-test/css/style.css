@@ -218,6 +218,18 @@ section h2 {
 	margin: 0;
 }
 
+.profile-warning {
+	background-color: #f5e5e5;
+	height: 16px;
+	padding: 16px;
+	font-size: 16px;
+	font-style: italic;
+	color: #990000;
+	margin: 0;
+	border-top: 1px solid #990000;
+	border-bottom: 1px solid #990000;
+}
+
 .edit-btn {
 	position: absolute;
 	bottom: 34px;
@@ -225,6 +237,24 @@ section h2 {
 	display: block;
 	height: 40px;
 	width: 100px;
+}
+
+#form {
+	position: absolute;
+	right: 61px;
+	top: 88px;
+}
+
+#form input {
+	vertical-align: middle;
+	position: relative;
+	bottom: 12px;
+}
+
+.label {
+	display: inline-block;
+	margin-bottom: 8px;
+	margin-top: 0;
 }
 
 /** USERS CARDS ***/ 

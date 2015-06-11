@@ -3,93 +3,65 @@
 <head>
 	<meta charset="UTF-8">
 	<title>My Business apps - O2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	<header>
-		<h1>My Business Apps <img src="img/O2-logo.png" alt="O2"></h1>
+	<header class="nav-down">
+		<h1><a href="index.html"><img src="img/header.png" alt="O2"></a></h1>
 		<!-- MENU -->
 		<nav>
-			<ul>
-				<li class="greeting">Hello, Philips!</li>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="users.html">Users</a></li>
-				<li>PRODUCTS
-					<ul>
-						<li><a href="product.html">Office</a></li>
-						<li><a href="product.html">Box</a></li>
-						<li><a href="product.html">Cloud</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Account</a></li>
-				<li><a href="#">Store</a></li>
-				<li>WARNINGS
-					<ul>
-						<li><a href="user-profile-warning.html">ownCloud. User is running out of memory.</a></li>
-						<li><a href="#">Example. Lorem ipsum dolor sit amet</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Help</a></li>
-				<li><a href="preindex.html">Exit</a></li>
+			<ul id="main-menu">
+				<li class="menu-section">WARNINGS</li>
+				<li class="warning"><a href="user-profile-warning.html"><span style="color:#990000;">ownCloud.</span> User is running out of memory.</a></li>
+				<li class="warning"><a href="user-profile-warning.html"><span style="color:#990000;">ownCloud.</span> User is running out of memory.</a></li>
+				<li class="menu-section">Hello, Philips!</li>
+				<li><a href="index.html"><img src="img/icon-home.png" alt="home" width="24px">Home</a></li>
+				<li><a href="users.html"><img src="img/icon-users.png" alt="users" width="24px">Users</a></li>
+				<li class="menu-section">PRODUCTS </li>
+				<li class="submenu"><a href="#"><img src="img/icon-office.png" alt="office" width="24px">Office</a></li>
+				<li class="submenu"><a href="#"><img src="img/icon-box.png" alt="box" width="24px">Box</a></li>
+				<li class="submenu"><a href="#"><img src="img/icon-cloud.png" alt="cloud" width="24px">Cloud</a></li>
+				<li><a href="#"><img src="img/icon-account.png" alt="account" width="24px">Account</a></li>
+				<li><a href="#"><img src="img/icon-store.png" alt="store" width="24px">Store</a></li>
+				
+				<li><a href="#"><img src="img/icon-help.png" alt="help" width="24px">Help</a></li>
+				<li><a href="preindex.html"><img src="img/icon-exit.png" alt="exit" width="24px">Exit</a></li>
+				<li class="menu-bg"></li>
 			</ul>
-			<a href="#" class="toogle-nav">&#9776;</a>
 		</nav>
+		<a href="#" class="toggle-nav"><img src="img/menu-warning.png" alt="&#9776;"></a>
+		<div class="blue-bar"></div>
 	</header>
 
-	<div>
-		<div> <a href="users.html">USERS</a> | USER PROFILE </div>
+	<div id="container-profile">
+		<section id="back"> <a href="users.html">USERS</a> | USER PROFILE </section>
 		<div class="accordion">
 			<div class="accordion-tab">
 				<h2>User Settings</h2>
-				<div>
-					<p>John Johnson</p>
-					<p>johnjohnson</p>
-					<p>Service user</p>
-					<p>0877 989 9071</p>
-					<p>john.johnson@douglasaccounting.co.uk</p>
-				</div>
-				<div>
-					<a href="#" class="btn">Disable</a>
-					<a href="#" class="btn">Delete</a>
-					<a href="#" class="btn">Reset Password</a>
-					<a href="user-profile-useredit.html" class="btn">Edit</a>
+				<div style="position:relative;">
+					<img src="img/profile-stacee.png" alt="mary" width="360px">
 				</div>
 			</div> 
 			<div class="accordion-tab">
 				<h2>OwnCloud Settings</h2>
-				<div>
-					<p>John is running out of storage space available. You might want to upgrade the user's account.</p>
-				</div>
-				<div>
-					<p>ownCloud profile</p>
-					<p>Silver file sharing</p>
-
-					<p>Last login</p>
-					<p>24/03/2015</p>
-
-					<p>Storage usage</p>
-					<p>13% (6.50GB of 50GB used)</p>
-				</div>
-				<div>
-					<a href="#" class="btn">Disable</a>
-					<a href="#" class="btn">Remove</a>
-					<a href="user-profile-productedit.html" class="btn">Edit</a>
+				<p class="profile-warning">The user needs more storage assigned</p>
+				<div style="position:relative;">
+					<img src="img/profile-cloud-warn.png" alt="cloud" width="360px">
+					<a href="user-profile-productedit.html" class="edit-btn"></a>
 				</div>
 			</div>
 			<div class="accordion-tab">
 				<h2>Assign Products</h2>
 				<div>
-					<img src="office-logo.png" alt="Office">
-					<p>Microsoft Office 365</p>
-					<p><span>+</span> Assign license</p>
-				</div>
-				<div>
-					<img src="box-logo.png" alt="Box">
-					<p>Box</p>
-					<p><span>+</span> Assign license</p>
+					<img src="img/profile-products.png" alt="products" width="360px">
 				</div>
 			</div> 
 		</div>
 	</div>
 
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
 </html>
