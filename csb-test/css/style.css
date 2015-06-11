@@ -111,7 +111,7 @@ nav::-webkit-scrollbar {
 }
 
 #main-menu {
-	margin-top: 50px;
+	margin-top: 56px;
 }
 
 .bullets{
@@ -122,6 +122,10 @@ nav::-webkit-scrollbar {
 
 .warning {
 	background-color: #f5e5e5;
+}
+
+.warning a {
+	font-size: 12px;
 }
 
 nav ul {
@@ -141,6 +145,14 @@ nav li a{
 	font-size: 16px;
 	padding: 14px 16px;
 	text-transform: none;
+}
+
+nav li a img{
+	vertical-align: top;
+	display: inline-block;
+	position: relative;
+	margin-top: -3px;
+	margin-right: 8px;
 }
 
 nav li.menu-section {
