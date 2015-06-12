@@ -28,11 +28,11 @@ a, a:visited{
 .header_section { float:left; width:100%;  margin:15px 0px 0px 0px; }
 .header_section .number { float:left; font-size:60px; font-weight:bold;  }
 .header_section .title { float:left; font-size:18px;  max-width:130px; padding:12px 5px;font-weight:bold; }
-.header_section .header_button { padding:30px 6px 0px 15px; margin:0px;}
+.header_section .header_button { padding:30px 6px 30px 15px; margin:0px;}
 .header_section .header_button a {  color:#FFF; text-align:center; font-size:16px; padding:8px 20px; text-decoration:none;}
-.header_section a.but_on { background-color:#2280a6;  -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;} 
+.header_section a.but_on { float:right; background-color:#2280a6;  -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;} 
 .header_section a.but_on:hover { background-color:#07446e;}
-.header_section a.home-btn {float:right;} 
+
 
 #users {
 	margin-top: 32px;
