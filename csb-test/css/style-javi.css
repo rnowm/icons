@@ -71,7 +71,6 @@ a.tab_all:hover { background:url('../img/ico_all_on.png') no-repeat left; paddin
 	margin: 0px;
 	width: 100%;
 }
-
 .nav-up {
 	top: -56px;
 }
@@ -183,7 +182,7 @@ nav ul {
 	display: none;
 	margin-bottom: 0;
 	padding: 0;
-	max-height: 484px;
+	max-height: 584px;
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 }

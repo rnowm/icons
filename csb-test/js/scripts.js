@@ -42,10 +42,12 @@ function hasScrolled() {
 // ***** NAV *****
 $(".toggle-nav").on('click', function (e) {
     $("#main-menu").toggleClass("show");
+    $("body").toggleClass("no-scroll");
     e.preventDefault();
 });
 
 $(".menu-bg").on('click', function (e) {
     $("#main-menu").removeClass("show");
+    $("body").removeClass("no-scroll");
     e.preventDefault();
 });
