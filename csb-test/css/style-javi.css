@@ -182,7 +182,7 @@ nav ul {
 	display: none;
 	margin-bottom: 0;
 	padding: 0;
-	max-height: 584px;
+	max-height: 536px;
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 }
