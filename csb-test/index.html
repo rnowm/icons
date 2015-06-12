@@ -4,7 +4,12 @@
 	<meta charset="UTF-8">
 	<title>My Business apps - O2</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style-javi.css">
+
+
+
+
+
 </head>
 
 <body>
@@ -14,8 +19,8 @@
 		<nav>
 			<ul id="main-menu">
 				<li class="menu-section">WARNINGS</li>
-				<li class="warning"><a href="user-profile-warning.html"><span style="color:#990000;">ownCloud.</span> User is running out of memory.</a></li>
-				<li class="warning"><a href="user-profile-warning.html"><span style="color:#990000;">ownCloud.</span> User is running out of memory.</a></li>
+				<li class="warning"><a href="#"><span style="color:#990000;">ownCloud.</span> Peter is running out of memory.</a></li>
+				<li class="warning"><a href="user-profile-warning.html"><span style="color:#990000;">ownCloud.</span> Stacee is running out of memory.</a></li>
 				<li class="menu-section">Hello, Philips!</li>
 				<li><a href="index.html"><img src="img/icon-home.png" alt="home" width="24px">Home</a></li>
 				<li><a href="users.html"><img src="img/icon-users.png" alt="users" width="24px">Users</a></li>
@@ -37,14 +42,18 @@
 	<div id="container">
 		<!-- PRODUCTS -->
 		<section id="products">
-			<h2>3 products available</h2>
+			<div class="header_section">
+                	<div class="number">3</div>
+                    <div class="title">subscribed products</div>
+                    <div class="header_button"><a class="but_on" href="#">+ Products</a></div>
+                </div>
 			<div id="product-slider">
 				<div class="product-list">
-					<div class="box">
-						<img class="product-card" src="img/product_office.png" alt="card">
-						<img class="product-card" src="img/product_box.png" alt="card">
-						<img class="product-card" src="img/product_cloud.png" alt="card">
-					</div>
+					<ul class="bxslider">
+						<li><img class="product-card" src="img/product_office.png" alt="card"></li>
+						<li><img class="product-card" src="img/product_box.png" alt="card"></li>
+						<li><img class="product-card" src="img/product_cloud.png" alt="card"></li>
+					</ul>
 					<!--img class="bullets" src="img/bullets.png" alt="bullets"-->
 				</div>
 			</div>
@@ -52,15 +61,34 @@
 
 		<!-- USERS -->
 		<section id="users">
-			<h2>56 users registered | <a href="#" class="btn add-user">+ Add users</a></h2>
+			<div class="header_section">
+                	<div class="number">56</div>
+                    <div class="title">registered users</div>
+                    <div class="header_button"><a class="but_on" href="#">+ Add users</a></div>
+                </div>
 			
-			<a href="users.html"><img class="v-align" src="img/icon-users.png" alt="users" width="24px"> See all</a>
-
-			<div class="more-users">
-				<img src="img/more-users.png" alt="more" width="296px">
-			</div>
-			<a href="#" class="btn add-user">+ Add users</a>
-			<a href="users.html"><img class="v-align" src="img/icon-users.png" alt="users" width="24px"> See all</a>
+            <div class="user_list">
+            <ul>
+            	
+                <li><img src="img/user_philip.png"></li>
+                <li><img src="img/user_eli.png"></li>
+                <li><img src="img/user_john.png"></li>
+                <li><img src="img/user_mary.png"></li>
+                <li><img src="img/user_peter.png"></li>
+            
+            </ul>
+            </div>
+			
+            
+            <div class="doble_bot">
+            
+            	<div class="see_all"><a class="tab_all" href="full_users_horizontal.html">See all</a></div>
+                <div class="add"><a class="but_on" href="#">+ Add users</a></div>
+            
+            </div>
+            
+           
+			
 		</section>	
 	</div>
 
@@ -70,5 +98,7 @@
 
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/scripts.js"></script>
+    
+
 </body>
 </html>
