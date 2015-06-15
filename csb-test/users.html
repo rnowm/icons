@@ -54,6 +54,32 @@
             	<div class="number">56</div>
                 <div class="title">registered users</div>
                 <div class="header_button"><a class="but_on" href="#">+ Add users</a></div>
+
+                <div class="order_list">
+                	<select name="forma" onchange="location = this.options[this.selectedIndex].value;">
+                    	<option value="full_users_horizontal-pag25.html">Set new filtering criteria</option>
+                        <option value="full_users_h_alpha.html">Show users in alphabetical order</option>
+                        <option value="full_users_horizontal-pag25.html">Show newest users</option>
+                        <option value="full_users_h_no-products.html">Show users with no products</option>
+                        <option value="full_users_h_action.html">Show users that might need action</option>
+                        <option value="full_users_h_admin.html">Show users with administrator role</option>
+                   	
+                    </select>
+              	</div>
+                
+                <div class="search"><input name="q" type="text" size="40" placeholder="Search users" /></div>
+                
+                <div class="mode_nav">
+                	<ul class="mode_nav-tabs">
+						<li>
+							<a class="tab_cards" href="users_1user.html"></a>
+						</li>
+						<li class="active">
+							<a class="tab_list" href="#"></a>
+						</li>
+			
+					</ul>	
+                </div>
             </div>
 		
             

@@ -25,10 +25,10 @@ a, a:visited{
 }
 
 #container .products { display:block; margin:0px; padding:0px;}
-.header_section { float:left; width:100%;  margin:15px 0px 0px 0px; }
+.header_section { float:left; width:100%;}
 .header_section .number { float:left; font-size:60px; font-weight:bold;  }
 .header_section .title { float:left; font-size:18px;  max-width:10px; padding:12px 5px;font-weight:bold; }
-.header_section .header_button { padding:30px 6px 30px 15px; margin:0px;}
+.header_section .header_button { padding:30px 0 30px 15px; margin:0px;}
 .header_section .header_button a {  color:#FFF; text-align:center; font-size:16px; padding:8px 20px; text-decoration:none;}
 .header_section a.but_on { float:right; background-color:#2280a6;  -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;} 
 .header_section a.but_on:hover { background-color:#07446e;}
@@ -39,6 +39,40 @@ a, a:visited{
 }
 
 
+.order_list select {
+	width: 100%;
+	margin: 8px 0;
+	color: #686868;
+	padding: 5px;
+	font-size: 12px;
+	line-height: 100%;
+	border: 1px solid #cfcece;
+	border-radius: 3;
+	height: 28px;
+	-webkit-appearance: none; font-weight:lighter; background:url('../img/arrow_down.png') no-repeat right #f3f3f3;}
+
+.order_list select option {
+	padding: 10px; background-color:#FFF; border-bottom:1px solid #CCC; font-size:11px;
+}
+
+.search input[type="text"] {
+    background:url('../img/ico_lupa.png') no-repeat left #FFF;
+    border: 1px solid #cfcece;
+    font-size: 12px;
+    color: #696969;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 0 5px 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+}
 
 
 .user_list { display:block; margin:20px 0px;}
