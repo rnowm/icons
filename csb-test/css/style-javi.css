@@ -43,12 +43,12 @@ a, a:visited{
 	width: 100%;
 	margin: 8px 0;
 	color: #686868;
-	padding: 5px;
-	font-size: 12px;
+	padding: 6px;
+	font-size: 14px;
 	line-height: 100%;
 	border: 1px solid #cfcece;
 	border-radius: 3;
-	height: 28px;
+	height: 36px;
 	-webkit-appearance: none; font-weight:lighter; background:url('../img/arrow_down.png') no-repeat right #f3f3f3;}
 
 .order_list select option {
@@ -58,11 +58,11 @@ a, a:visited{
 .search input[type="text"] {
     background:url('../img/ico_lupa.png') no-repeat left #FFF;
     border: 1px solid #cfcece;
-    font-size: 12px;
+    font-size: 14px;
     color: #696969;
     width: 100%;
     box-sizing: border-box;
-    padding: 6px 0 5px 30px;
+    padding: 8px 0 8px 30px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
